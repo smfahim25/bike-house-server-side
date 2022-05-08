@@ -27,7 +27,7 @@ function verifyJWT(req, res, next) {
     })
 }
 
-// database connection 
+// database connected
 
 
 const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0.ortxu.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`;
