@@ -100,7 +100,6 @@ async function run() {
             };
             const result = await bikeCollection.updateOne(filter, updatedDoc, options);
             res.send(result);
-
         })
 
         // my bikesAPI
