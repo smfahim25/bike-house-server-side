@@ -103,7 +103,7 @@ async function run() {
 
         })
 
-        // my bikesAPI  
+        // my bikesAPI
 
         app.get('/mybike', verifyJWT, async (req, res) => {
             const decodedEmail = req.decoded.email;
