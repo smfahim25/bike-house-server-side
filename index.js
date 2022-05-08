@@ -53,7 +53,6 @@ async function run() {
             res.send({ accessToken });
         })
 
-
         app.get('/bikes', async (req, res) => {
             const query = {};
             const cursor = bikeCollection.find(query);
